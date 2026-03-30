@@ -1,0 +1,11 @@
+.letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.min {
+    font-size: 1.4rem;
+    opacity: 80%;
+    color: white;
+}

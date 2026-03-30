@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
