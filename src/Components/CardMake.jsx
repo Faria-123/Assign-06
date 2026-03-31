@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import { FileText, Star, Crown, TrendingUp, Briefcase, GraduationCap } from "lucide-react";
 const CardMake = ({ product, carts, setCart }) => {
     // console.log(product);
     console.log(carts.length);
+    const [add, setAdd] = useState(false);
     const handl = () => {
         // 1. Check if the product is already in the cart to prevent duplicates
         const isAlreadyInCart = carts.find(item => item.id === product.id);
-
+        setAdd(true);
         if (!isAlreadyInCart) {
             // 2. Use the functional update pattern for reliability
             // This spreads the existing items and adds the new product
@@ -64,7 +65,7 @@ const CardMake = ({ product, carts, setCart }) => {
             <button onClick={() => handl()}
                 className="w-full py-3 rounded-full text-white font-medium 
       bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-90 transition">
-                Buy Now
+                {add ? 'Added to Cart' : 'Buy Now'}
             </button>
 
         </div>

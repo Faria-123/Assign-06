@@ -8,7 +8,7 @@ const Emptycard = () => {
 
                     <h2 class="text-2xl font-bold text-gray-900 mb-6">Your Cart</h2>
 
-
+                    <h1>Products cards are Empty</h1>
                     <div class="flex justify-between items-end mb-8 px-2">
                         <span class="text-gray-400 font-medium">Total:</span>
                         <span class="text-3xl font-bold text-gray-900">0</span>

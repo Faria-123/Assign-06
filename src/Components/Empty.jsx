@@ -22,7 +22,7 @@ const Empty = ({ carts, setCart }) => {
 
             </div>
             {
-                (carts.length === 0 ? <Emptycard ></Emptycard> : (<div className='w-[400px] mx-auto'>
+                (carts.length === 0 ? <Emptycard ></Emptycard> : (<div className='w-[730px]  rounded-2xl p-3 mx-auto border border-gray-400'>
                     <div className="flex justify-between items-baseline mb-8 px-2">
                         <span className="text-gray-400 font-medium text-sm">Total:</span>
                         <span className="text-3xl font-bold text-gray-900 leading-none">
