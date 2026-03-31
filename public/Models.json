@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Starter Resume Pack",
+        "description": "Perfect for beginners to create professional resumes easily.",
+        "price": 0,
+        "period": "one-time",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "10+ templates",
+            "Basic customization",
+            "Export to PDF"
+        ],
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJHcGerJVk7Yct5CgtWOnPttJ_wwBpUWBoGg&s"
+    },
+    {
+        "id": 2,
+        "name": "Pro Resume Builder",
+        "description": "Advanced resume builder with ATS-friendly templates.",
+        "price": 9.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF",
+            "Cover letter builder"
+        ],
+        "icon": "https://img.freepik.com/premium-vector/yellow-gold-star-flat-icon-isolated-vector-illustration_34480-907.jpg?semt=ais_incoming&w=740&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Career Boost Plan",
+        "description": "Full package to boost your job application success.",
+        "price": 19.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best",
+        "features": [
+            "Unlimited resumes",
+            "LinkedIn optimization",
+            "Priority support"
+        ],
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDo9TjFAgCvpVa58PYf821af8vWir7jsLDA&s"
+    },
+    {
+        "id": 4,
+        "name": "One-Time Premium Pack",
+        "description": "Pay once and get lifetime access to premium features.",
+        "price": 49.99,
+        "period": "one-time",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Lifetime access",
+            "All templates",
+            "Export to PDF & Word"
+        ],
+        "icon": "https://img.freepik.com/free-vector/hand-drawn-crown-gold_78370-4694.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Student Plan",
+        "description": "Affordable plan designed for students and fresh graduates.",
+        "price": 4.99,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "20+ templates",
+            "Basic ATS check",
+            "Email support"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/354/354637.png"
+    },
+    {
+        "id": 6,
+        "name": "Professional Yearly Plan",
+        "description": "Best value yearly plan for professionals.",
+        "price": 99.99,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "best",
+        "features": [
+            "Unlimited downloads",
+            "Advanced analytics",
+            "Premium templates"
+        ],
+        "icon": "https://png.pngtree.com/png-vector/20190116/ourmid/pngtree-vector-briefcase-icon-png-image_322177.jpg"
+    }
+]
