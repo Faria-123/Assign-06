@@ -4,9 +4,18 @@ const CardMake = ({ product, carts, setCart }) => {
     // console.log(product);
     console.log(carts.length);
     const handl = () => {
-        carts = [...carts, product];
-        setCart(carts);
-    }
+        // 1. Check if the product is already in the cart to prevent duplicates
+        const isAlreadyInCart = carts.find(item => item.id === product.id);
+
+        if (!isAlreadyInCart) {
+            // 2. Use the functional update pattern for reliability
+            // This spreads the existing items and adds the new product
+            setCart([...carts, product]);
+
+        } else {
+            alert("This item is already in your cart.");
+        }
+    };
 
     // const Icon = icons[product.icon];
     return (

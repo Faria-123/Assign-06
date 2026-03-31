@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
     return (
         <div>
             <div className="navbar container mx-auto">
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="navbar-end gap-5">
 
                     <img src="./shopping-cart.png" alt="" className='relative' />
-                    <p className='absolute top-3.5 right-[11.7rem] text-red-600 font-bold text-[1rem]'>0</p>
+                    <p className='absolute top-3.5 right-[11.7rem] text-red-600 font-bold text-[1rem]'>{carts.length}</p>
                     <p>Login</p>
                     <a className="btn rounded-full text-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
                 </div>
