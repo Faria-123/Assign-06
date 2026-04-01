@@ -1,7 +1,7 @@
 # React + Vite
 Name of my Projects: DigiTools.
 Description:
- Digitools is a web-based program that provides job hunters with an easy-to-use and efficient means to create professional-quality and ATS compatible resumes in less than 5 minutes through a subscription-based service.Users may select from various subscription packages based upon their current career stage; therefore, students can opt for free starter packs, while individuals in the executive level can select Executive Branding Plans.
+ Digitools is a web-based program that provides job hunters with an easy to use and efficient means to create professional quality and ATS compatible resumes in less than 5 minutes through a subscription-based service.Users may select from various subscription packages based upon their current career stage. therefore, students can opt for free starter packs, while individuals in the executive level can select Executive Branding Plans.
 Technology That I've Used:
  a.Front End: React JS (Component-Based Architecture).
  b.Styling: Tailwind CSS (Utility-First Responsive Design).

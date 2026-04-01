@@ -30,7 +30,7 @@ const Empty = ({ carts, setCart }) => {
                         </span>
                     </div>
 
-                    {/* Action Button - Matches the purple rounded button */}
+
                     <button onClick={dele} className="w-full bg-[#7C3AED] hover:bg-[#6D28D9] text-white font-bold py-4 rounded-full transition-all active:scale-[0.98] shadow-lg shadow-purple-100">
                         Proceed To Checkout
                     </button>
