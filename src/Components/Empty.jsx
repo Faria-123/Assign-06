@@ -1,6 +1,7 @@
 import React from 'react';
 import Emptycard from './Emptycard';
 import Selected from './Selected';
+import { toast } from 'react-toastify';
 
 const Empty = ({ carts, setCart }) => {
     console.log(carts);
@@ -8,6 +9,7 @@ const Empty = ({ carts, setCart }) => {
     const dele = () => {
         const necarts = [];
         setCart(necarts);
+        toast.success("Payment Successfull!");
     }
     return (
         <div>
