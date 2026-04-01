@@ -10,6 +10,7 @@ const Empty = ({ carts, setCart }) => {
         const necarts = [];
         setCart(necarts);
         toast.success("Payment Successfull!");
+
     }
     return (
         <div>
